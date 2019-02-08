@@ -9,7 +9,7 @@ function distanceFromHqInFeet(pickupLocation) {
 }
 
 function distanceTravelledInFeet(pickup, dropoff) {
-
+  const distance = Math.abs(pickup - dropoff)
 }
 
 
