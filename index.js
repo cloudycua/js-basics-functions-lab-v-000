@@ -1,12 +1,12 @@
 const headquarter = 42;
 const block = 264;
 
-function distanceFromHqInBlocks(pickupLocation) {
-  return Math.abs(headquarter - pickupLocation)
+function distanceFromHqInBlocks(pickup) {
+  return Math.abs(headquarter - pickup)
 }
 
-function distanceFromHqInFeet(pickupLocation) {
-  return distanceFromHqInBlocks(pickupLocation) * block;
+function distanceFromHqInFeet(pickup) {
+  return distanceFromHqInBlocks(pickup) * block;
 }
 
 function distanceTravelledInFeet(pickup, dropoff) {
