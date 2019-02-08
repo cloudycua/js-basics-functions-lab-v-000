@@ -13,5 +13,3 @@ function distanceTravelledInFeet(pickup, dropoff) {
   const distance = Math.abs(pickup - dropoff);
   return distance * block;
 }
-
-
