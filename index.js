@@ -16,4 +16,9 @@ function distanceTravelledInFeet(pickup, dropoff) {
 
 function calculatesFarePrice(start, destination) {
   const distance = distanceTravelledInFeet(start, destination);
+
+  switch (distance) {
+    default:
+      
+  }
 }
