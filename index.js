@@ -19,10 +19,10 @@ function calculatesFarePrice(start, destination) {
   let farePrice = 0;
 
   if (distance > 400 && distance < 2000) {
-    farePrice += (distance - 400) * .02;
+    farePrice = (distance - 400) * .02;
   }
   if (distance >= 2000) {
-      farePrice += (distance - 1999) * 25;
+    farePrice = (distance - 1999) * 25;
   }
 
   return farePrice;
