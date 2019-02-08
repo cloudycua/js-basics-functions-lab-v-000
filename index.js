@@ -18,7 +18,7 @@ function calculatesFarePrice(start, destination) {
   const distance = distanceTravelledInFeet(start, destination);
 
   if (distance <= 1) {
-    return 0;
+    return "0";
   }
 
 }
