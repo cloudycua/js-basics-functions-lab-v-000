@@ -15,11 +15,12 @@ function distanceTravelledInFeet(pickup, dropoff) {
 }
 
 function calculatesFarePrice(start, destination) {
-  const distance = Math.abs(start - destination);
-  let farePrice = 0;
+  let distance = distanceTravelledInFeet(start, destination);
+  let fare = 0;
 
-  if (distance <= 400) {
-    farePrice = 0;
+  if (distance > 400 && distance < 2000) {
+    distance 
+    fare += 0;
   } else if (distance < 2000){
     farePrice = .02;
   }
