@@ -18,8 +18,8 @@ function calculatesFarePrice(start, destination) {
   const distance = distanceTravelledInFeet(start, destination);
 
   switch (distance) {
-    case 0:
-      return "free";
+    case <= 1:
+      return 0;
       break;
   }
 
