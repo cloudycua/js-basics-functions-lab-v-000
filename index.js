@@ -18,9 +18,11 @@ function calculatesFarePrice(start, destination) {
   const distance = distanceTravelledInFeet(start, destination);
   let farePrice = 0;
 
-  if (distance <= 1) {
-    return distance * farePrice;
+  switch (distance) {
+    case <= 1:
+      farePrice = 0;
+      break;
   }
 
-
+  return distance * farePrice;
 }
