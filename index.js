@@ -19,6 +19,6 @@ function calculatesFarePrice(start, destination) {
 
   switch (distance) {
     case === 0:
-
+      return "free";
   }
 }
