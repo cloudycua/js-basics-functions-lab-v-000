@@ -18,8 +18,10 @@ function calculatesFarePrice(start, destination) {
   const distance = distanceTravelledInFeet(start, destination);
   let farePrice = 0;
 
-  if (distance <= 1) {
+  if (distance <= 400) {
     farePrice = 0;
+  } else if (distance >){
+  
   }
 
   return distance * farePrice;
