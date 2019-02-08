@@ -19,7 +19,6 @@ function calculatesFarePrice(start, destination) {
   let farePrice = 0;
 
   if (distance > 400 && distance < 2000) {
-    debugger;
     distance -= 400;
     farePrice += distance * .02;
   }
