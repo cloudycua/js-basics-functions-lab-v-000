@@ -22,8 +22,7 @@ const distance = distanceTravelledInFeet(start, destination);
     farePrice += (distance - 400) * .02;
   }
   if (distance >= 2000) {
-    distance -= 2000;
-    farePrice += distance * 25;
+    farePrice += (distance - 2000) * 25;
   }
 
   return farePrice;
