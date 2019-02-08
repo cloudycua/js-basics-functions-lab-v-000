@@ -15,5 +15,5 @@ function distanceTravelledInFeet(pickup, dropoff) {
 }
 
 function calculatesFarePrice(start, destination) {
-  
+
 }
