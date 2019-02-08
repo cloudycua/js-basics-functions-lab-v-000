@@ -21,7 +21,7 @@ function calculatesFarePrice(start, destination) {
   if (distance <= 400) {
     farePrice = 0;
   } else if (distance >){
-  
+
   }
 
   return distance * farePrice;
