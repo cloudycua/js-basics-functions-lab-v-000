@@ -19,6 +19,6 @@ function calculatesFarePrice(start, destination) {
 
   switch (distance) {
     default:
-      
+
   }
 }
