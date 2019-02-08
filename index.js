@@ -19,8 +19,8 @@ function calculatesFarePrice(start, destination) {
   let farePrice = 0;
 
   if (distance <= 1) {
-    farePrice = 0;
+    return distance * farePrice;
   }
 
-  return distance * farePrice;
+  
 }
