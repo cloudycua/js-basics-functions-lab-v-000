@@ -15,7 +15,7 @@ function distanceTravelledInFeet(pickup, dropoff) {
 }
 
 function calculatesFarePrice(start, destination) {
-  const distance = distanceTravelledInFeet(start, destination);
+  const distance = Math.abs(start - destination);
   let farePrice = 0;
 
   if (distance <= 400) {
