@@ -22,5 +22,5 @@ function calculatesFarePrice(start, destination) {
     return distance * farePrice;
   }
 
-  
+
 }
